@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+main hr {
+    border: 0;
+    background: rgb(108, 108, 123);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(116, 116, 221);
+    font-size: 1.1rem;
+
+
+}
+
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 180px 0;
+    align-items: center;
+}
+
+.leftSection{
+    /* background-color: blueviolet; */
+    font-size: 3rem;  
+    margin: 40px 10px;   
+}
+
+.leftSection .btn{
+    padding: 7px;
+    background-color: rgb(50, 50, 122);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  
+}
+.leftSection  .buttons{
+    padding: 23px;
+}
+
+.rightSection img{
+    /* background-color: blueviolet; */
+    height: 182px;
+    width: 169px;
+}
+
+.purple {
+    color: rgb(147, 41, 246);
+}
+
+.text-gray {
+    color: gray;
+}
+
+.firstSection > div{
+    /* background-color: brown; */
+    width: 30%;
+}
+
+
+#element{
+    color: rgb(147, 41, 246);
+
+}
+
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -30px;
+    left: -11px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 17px;
+
+}
+
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+.footer{
+    /* height: 233; */
+    background-color: #10101d;
+}
+.footer{
+    display: flex;
+    margin: -225px 122px;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+
+}
+.footer > div{
+    width: 200px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 241px;
+
+}
+    
